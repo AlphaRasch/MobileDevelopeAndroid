@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextGroupNumber"
+        android:layout_width="358dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="176dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Номер группы"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextListNumber"
+        android:layout_width="356dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Номер по спику"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGroupNumber" />
+
+    <EditText
+        android:id="@+id/editTextFilmTitle"
+        android:layout_width="352dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="28dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Любимый фильм"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextListNumber" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="379dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="56dp"
+        android:layout_weight="1"
+        android:text="Сохранить"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextFilmTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

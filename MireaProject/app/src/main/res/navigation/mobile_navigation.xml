@@ -55,4 +55,28 @@
         android:label="Microphone"
         tools:layout="@layout/fragment_microphone"
         />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.chekalinev.mireaproject.lesson6.ProfileFragment"
+        android:label="Profile"
+        android:layout="@layout/fragment_profile"
+        />
+    <fragment
+        android:id="@+id/fileProcessingFragment"
+        android:name="ru.chekalinev.mireaproject.lesson6.FileProcessingFragment"
+        android:label="File Processing"
+        android:layout="@layout/fragment_file_processing"
+        />
+    <fragment
+        android:id="@+id/apiFragment"
+        android:name="ru.chekalinev.mireaproject.lesson7.ApiFragment"
+        android:label="ApiFragment"
+        android:layout="@layout/fragment_api"
+        />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="ru.chekalinev.mireaproject.lesson8.MapFragment"
+        android:label="MapFragment"
+        android:layout="@layout/fragment_map"
+        />
 </navigation>

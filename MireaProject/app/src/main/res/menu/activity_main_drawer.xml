@@ -40,5 +40,21 @@
             android:id="@+id/microphoneFragment"
             android:icon="@android:drawable/ic_btn_speak_now"
             android:title="Microphone" />
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Profile" />
+        <item
+            android:id="@+id/fileProcessingFragment"
+            android:icon="@android:drawable/stat_notify_sdcard"
+            android:title="File Processing" />
+        <item
+            android:id="@+id/apiFragment"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Api" />
+        <item
+            android:id="@+id/mapFragment"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Map" />
     </group>
 </menu>
